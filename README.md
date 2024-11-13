@@ -2,7 +2,7 @@
 
 ## What is React JS?
 
-React is a Javascript library for building user interfaces. 
+React is a Javascript library for building user interfaces. It is developed by Facebook. It simplifies creating dynamic and interactive web apps with the help of component-based architecture, reusability, and efficient rendering with the JSX and virtualDOM.
 
 - **Component-Based:** Build encapsulated components that manage their own state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep the state out of the DOM.
 - **Learn Once, Write Anywhere:** We don't make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code. React can also render on the server using [Node](https://nodejs.org/en) and power mobile apps using [React Native](https://reactnative.dev/).
@@ -59,3 +59,55 @@ npm start
 This command will start a local development server and run the React project in your web browser. You can access the project by navigating to http://localhost:3000 in your web browser.
 
 That’s it! You should now be able to download and run a React project from Github on your PC.
+
+
+## Why Learn React JS?
+
+- React is flexible, once you learn its concepts, you can use it across various platforms to build quality user interfaces.
+- React has a great developer experience, making it easier to understand and write code.
+- React’s broader community support, excellent performance, and ease of testing make it an ideal choice for web development. 
+
+## Features of React JS.
+
+1. **JSX (Javascript Syntax Extension)**
+- JSX combines HTML and JavaScript, allowing you to embed JavaScript objects within HTML elements. It enhances code clarity and simplifies UI development.
+
+**Example:**
+```jsx
+const name = "Nix";
+const ele = <h1>Welcome {name}</h1>
+```
+
+2. **Virtual DOM (Document Object Model)**
+- It uses a Virtual DOM, which is an exact copy of Real DOM. 
+- When there are modifications in the web application, React updates the virtual DOM first and then computes the differences between the real DOM and the virtual DOM. This minimizes unnecessary re-rendering and improves performance.
+
+<img src='https://miro.medium.com/v2/resize:fit:1400/1*MVVai4SRxxuy7xdwRH9Yww.jpeg' width='600'>
+
+3. **One-way Data Binding** 
+- React's data flows from parent components to child components. Child components cannot directly return data to their parent components, but they can communicate with parents to modify states based on provided inputs.
+
+4. **Performance**
+- React's virtual DOM  and component-based architecture contribute to better performance.
+- Faster execution and effective rendering are made possible because of separate components.
+
+5. **Extension**
+- React has a rich ecosystem and supports various extensions and tools such as **Flux**, **Redux**, and **React Native**.
+
+6. **Conditional Statements**
+- JSX allows writing conditional statements directly.
+- Displays data in the browser based on previous conditions.
+
+**Example:**
+```jsx
+const student = 60;
+if (student >= 50){
+    return <p>Greater than {student}</p>;
+} else {
+    return <p>{student}</p>;
+}
+```
+
+7. **Components**
+- React divides web pages into reusable and immutable components.   
+- Component-based development simplifies code organization and maintenance.
