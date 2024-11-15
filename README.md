@@ -1,5 +1,24 @@
 # React JS
 
+---
+
+## What do you want to know?
+
+1. [What is React JS?](#what-is-react-js)
+2. [How to Install React JS](#how-to-install-react-js)
+   - [Prerequisites](#prerequisites)
+   - [Step-by-Step Installation](#step-by-step-installation)
+3. [Why Learn React JS?](#why-learn-react-js)
+4. [Features of React JS](#features-of-react-js)
+   - [JSX (JavaScript Syntax Extension)](#jsx-javascript-syntax-extension)
+   - [Virtual DOM](#virtual-dom)
+   - [One-way Data Binding](#one-way-data-binding)
+   - [Performance](#performance)
+   - [Extensions](#extensions)
+   - [Conditional Rendering](#conditional-rendering)
+
+---
+
 ## What is React JS?
 
 React is a Javascript library for building user interfaces. It is developed by Facebook. It simplifies creating dynamic and interactive web apps with the help of component-based architecture, reusability, and efficient rendering with the JSX and virtualDOM.
@@ -15,7 +34,7 @@ React is a Javascript library for building user interfaces. It is developed by F
 
 - Have a code editor like [Visual Studio Code](https://code.visualstudio.com/) or other good code editors.
 - Have Node installed. You can download it from [Node.js official website](https://nodejs.org/).
-- Have Git installed.
+- Have Git installed. You can download it from [Git official website](https://git-scm.com/).
 - Have knowledge about Javascript language. 
 - Have basic knowledge of React.
 
@@ -60,12 +79,15 @@ This command will start a local development server and run the React project in 
 
 That’s it! You should now be able to download and run a React project from Github on your PC.
 
+---
 
 ## Why Learn React JS?
 
-- React is flexible, once you learn its concepts, you can use it across various platforms to build quality user interfaces.
-- React has a great developer experience, making it easier to understand and write code.
-- React’s broader community support, excellent performance, and ease of testing make it an ideal choice for web development. 
+- Once you learn its concepts, you can use React across various platforms to build quality user interfaces.
+- React provides a great developer experience, making it easier to understand and write code.
+- React has a broad community, excellent performance, and ease of testing, making it an ideal choice for web development. 
+
+---
 
 ## Features of React JS.
 
@@ -85,16 +107,15 @@ const ele = <h1>Welcome {name}</h1>
 <img src='https://miro.medium.com/v2/resize:fit:1400/1*MVVai4SRxxuy7xdwRH9Yww.jpeg' width='600'>
 
 3. **One-way Data Binding** 
-- React's data flows from parent components to child components. Child components cannot directly return data to their parent components, but they can communicate with parents to modify states based on provided inputs.
+- Data flows from parent components to child components. Child components cannot directly modify parent states but can communicate to request changes.
 
 4. **Performance**
-- React's virtual DOM  and component-based architecture contribute to better performance.
-- Faster execution and effective rendering are made possible because of separate components.
+- The Virtual DOM and component-based architecture contribute to improved performance with faster execution and effective rendering.
 
 5. **Extension**
 - React has a rich ecosystem and supports various extensions and tools such as **Flux**, **Redux**, and **React Native**.
 
-6. **Conditional Statements**
+6. **Conditional Rendering**
 - JSX allows writing conditional statements directly.
 - Displays data in the browser based on previous conditions.
 
