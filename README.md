@@ -6,16 +6,9 @@
 
 1. [What is React JS?](#what-is-react-js)
 2. [How to Install React JS](#how-to-install-react-js)
-   - [Prerequisites](#prerequisites)
-   - [Step-by-Step Installation](#step-by-step-installation)
 3. [Why Learn React JS?](#why-learn-react-js)
 4. [Features of React JS](#features-of-react-js)
-   - [JSX (JavaScript Syntax Extension)](#jsx-javascript-syntax-extension)
-   - [Virtual DOM](#virtual-dom)
-   - [One-way Data Binding](#one-way-data-binding)
-   - [Performance](#performance)
-   - [Extensions](#extensions)
-   - [Conditional Rendering](#conditional-rendering)
+5. [React Tutorial Videos and Links](#react-tutorial-videos-and-links)
 
 ---
 
@@ -132,3 +125,11 @@ if (student >= 50){
 7. **Components**
 - React divides web pages into reusable and immutable components.   
 - Component-based development simplifies code organization and maintenance.
+
+---
+
+## React Tutorial Videos and Links
+
+- All about React JS - [React Documentation](https://react.dev/).
+- How to Install React JS & Set up Your First Project - [Set Up Your React JS](https://www.youtube.com/watch?v=av5fmpgEJSU&ab_channel=RishavChanda).
+- Creating React App Link - [Create React App Documentation](https://create-react-app.dev/docs/getting-started/).
